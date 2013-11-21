@@ -71,11 +71,7 @@ public class LoginPageTest {
     }
 
 
-    @Test
-    public void testLogin3() throws InterruptedException {
 
-
-    }
 
 
     @Test
