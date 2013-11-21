@@ -1,72 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="28.815" errors="0" skipped="0" tests="4" name="com.citysocializer.test.web.LoginPageTest">
+<testsuite failures="0" time="31.645" errors="0" skipped="0" tests="4" name="com.citysocializer.test.web.LoginPageTest">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="24.45-b08"/>
-    <property name="user.country.format" value="GB"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="citysocializer-automation-test"/>
+    <property name="PWD" value="/Users/alexg"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/alexg/Documents/workspace/citysocializer-automation"/>
-    <property name="java.runtime.version" value="1.7.0_45-b18"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/cg/41p3krwn5y5cr1sqcw_gpt0m0000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/alexg/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home//bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/alexg/apache-maven/bin"/>
+    <property name="JAVA_MAIN_CLASS_52427" value="Main"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3bee4b4362b22f48"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/alexg/apache-maven/bin/m2.conf"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="3499CEC7-4C5E-46D9-9014-9D2E292A773B"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="user.name" value="alexg"/>
+    <property name="__CHECKFIX1436934" value="1"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="TMPDIR" value="/var/folders/cg/41p3krwn5y5cr1sqcw_gpt0m0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2013-11-21_00-29-05"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/alexg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.9"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/alexg"/>
-    <property name="user.timezone" value="Europe/London"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.7"/>
-    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA 12 CE.app/bin"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="alexg"/>
-    <property name="java.class.path" value="/Users/alexg/apache-maven/boot/plexus-classworlds-2.5.1.jar:/Applications/IntelliJ IDEA 12 CE.app/lib/idea_rt.jar"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="java.vm.specification.version" value="1.7"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.country" value="US"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher --fail-fast --strict-checksums package"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.7.0_45"/>
-    <property name="java.ext.dirs" value="/Users/alexg/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/alexg/apache-maven"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="os.version" value="10.9"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="alexg"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="HOME" value="/Users/alexg"/>
+    <property name="user.home" value="/Users/alexg"/>
+    <property name="BUILD_TAG" value="jenkins-citysocializer-automation-test-5"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3bee4b4362b22f48"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/alexg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="Apple_PubSub_Socket_Render" value="/tmp/launch-vBFIF9/Render"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/Users/alexg/apache-maven"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="/Users/alexg/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.4.jar:/Users/alexg/apache-maven/boot/plexus-classworlds-2.5.1.jar:/Users/alexg/apache-maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /Users/alexg/apache-maven /private/var/folders/cg/41p3krwn5y5cr1sqcw_gpt0m0000gn/T/jetty-0.0.0.0-8080-jenkins.war--any-/webapp/WEB-INF/lib/remoting-2.32.jar /Users/alexg/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar /Users/alexg/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar 55491"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home//bin"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/alexg/apache-maven"/>
+    <property name="java.io.tmpdir" value="/var/folders/cg/41p3krwn5y5cr1sqcw_gpt0m0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/alexg/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/alexg/apache-maven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/citysocializer-automation-test/5/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/tmp/launch-UgNvc6/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/alexg/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0:0"/>
+    <property name="user.dir" value="/Users/alexg/Documents/workspace/citysocializer-automation"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/citysocializer-automation-test/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/Users/alexg/apache-maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="326"/>
+    <property name="PATH+CHROMEDRIVER" value="/Users/alexg/.jenkins/tools/chromedriver"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_GB.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/alexg/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar"/>
+    <property name="WORKSPACE" value="/Users/alexg/Documents/workspace/citysocializer-automation"/>
+    <property name="maven3.interceptor.common" value="/Users/alexg/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="alexg"/>
   </properties>
-  <testcase time="23.929" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin"/>
-  <testcase time="1.54" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin2"/>
-  <testcase time="1.608" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin3"/>
-  <testcase time="1.738" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin4"/>
+  <testcase time="25.311" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin"/>
+  <testcase time="3.056" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin2"/>
+  <testcase time="1.658" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin3"/>
+  <testcase time="1.62" classname="com.citysocializer.test.web.LoginPageTest" name="testLogin4"/>
 </testsuite>
