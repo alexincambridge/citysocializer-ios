@@ -54,7 +54,7 @@ public class LoginPageTest {
         //Test LoginPage
         LoginPage = PageFactory.initElements(driver, LoginPage.class);
         LoginPage.enterEmail("agranada69@hotmail.com");
-        LoginPage.enterPassword("123456");
+        LoginPage.enterPassword("12345");
         LoginPage.clickButtonLoginMe();
         Thread.sleep(5000);
         LoginPage.clickUserMenu();
