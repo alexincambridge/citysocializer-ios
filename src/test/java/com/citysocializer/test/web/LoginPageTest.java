@@ -6,11 +6,11 @@ import com.citysocializer.test.web.uicomponent.MainPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import static org.junit.Assert.assertEquals;
@@ -54,7 +54,7 @@ public class LoginPageTest {
         //Test LoginPage
         LoginPage = PageFactory.initElements(driver, LoginPage.class);
         LoginPage.enterEmail("agranada69@hotmail.com");
-        LoginPage.enterPassword("123456");
+        LoginPage.enterPassword("12345");
         LoginPage.clickButtonLoginMe();
         Thread.sleep(5000);
         LoginPage.clickUserMenu();
@@ -71,11 +71,7 @@ public class LoginPageTest {
     }
 
 
-    @Test
-    public void testLogin3() throws InterruptedException {
 
-
-    }
 
 
     @Test
