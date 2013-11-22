@@ -59,7 +59,7 @@ public class NotificationTest {
 
         //Test LoginPage
         SendMessage = PageFactory.initElements(driver, SendMessage.class);
-        SendMessage.enterEmail("alex+1@citysocializer.com");
+        SendMessage.enterEmail("alex+8@citysocializer.com");
         SendMessage.enterPassword("123456");
         SendMessage.clickButtonLoginMe();
 
@@ -70,16 +70,16 @@ public class NotificationTest {
         SendMessage.clickFindSocializer();
         SendMessage.clickJoinSocials();
         Thread.sleep(1000);
-        SendMessage.clickYouAreGoing();
-        Thread.sleep(3000);
-        SendMessage.clickInviteSocial();
-        Thread.sleep(3000);
-        SendMessage.clickInviteFriends("Ole");
-        Thread.sleep(3000);
-        SendMessage.clearSendFriend();
-        SendMessage.clickFriend0();
-        Thread.sleep(3000);
-        SendMessage.clickSendFriend();
+//        SendMessage.clickYouAreGoing();
+//        Thread.sleep(3000);
+//        SendMessage.clickInviteSocial();
+//        Thread.sleep(3000);
+//        SendMessage.clickInviteFriends("Ole");
+//        Thread.sleep(3000);
+//        SendMessage.clearSendFriend();
+//        SendMessage.clickFriend0();
+//        Thread.sleep(3000);
+//        SendMessage.clickSendFriend();
 
 
 
@@ -91,7 +91,7 @@ public class NotificationTest {
 
     @After
     public void tearDown() throws Exception {
-        driver.quit();
+       driver.quit();
     }
 
 }

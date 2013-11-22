@@ -40,8 +40,8 @@ public class SendMessage {
     @FindBy(xpath = "//*[@id='main_nav_ul']/li[2]/a")
     private WebElement JoinSocial;
     //click in a social whatever
-    @FindBy(xpath = "//*[@id='social_list']/div/section[2]/div[2]/div/div[1]/article[1]/div[2]/button")
-    private WebElement YouAregGoing;
+    @FindBy(xpath = "//*[@id='social_list']/div[2]/section[2]/div[2]/div/div[1]/article[3]/div[2]/button")
+    private WebElement YouAreGoing;
     //invite a friends to a social
     @FindBy(css = "html body div#content article#social.container div#social_settings.right-col div div.actions div div.social-actions section.joining_info button#invite_to_social.button")
     private WebElement InviteSocial;
@@ -180,7 +180,7 @@ public class SendMessage {
 
 
     public void clickYouAreGoing(){
-        YouAregGoing.click();
+        YouAreGoing.click();
     }
 
     public void clickInviteSocial(){
