@@ -50,7 +50,7 @@ public class LoginPageTest {
         String url = driver.getCurrentUrl();
         assertEquals("https://staging.citysocializer.com/login", url );
 
-
+        //comentario
         //Test LoginPage
         LoginPage = PageFactory.initElements(driver, LoginPage.class);
         LoginPage.enterEmail("agranada69@hotmail.com");
